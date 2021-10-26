@@ -19,10 +19,10 @@
     <main>
     <?php
         include_once("funciones.php");
-        if (isset($_POST["enviar"]) && $_POST["nombreUs"] != "" && $_POST["emailUs"] != "" && $_POST["contraseñaUs"] != "") {
+        if (isset($_POST["enviar"]) && $_POST["nombreUs"] != "" && $_POST["emailUs"] != "" && $_POST["contrasenaUs"] != "") {
             $nombreUsuario = $_POST["nombreUs"];
             $emailUsuario = $_POST["emailUs"];
-            $passUs = md5($_POST["contraseñaUs"]);
+            $passUs = md5($_POST["contrasenaUs"]);
             echo signin($nombreUsuario, $emailUsuario, $passUs);
         } else {
 
@@ -40,12 +40,12 @@
                 </div>
                 <div class="mb-3">
                   <label class="form-label">Contraseña</label>
-                  <input type="password" name="contraseñaUs"  class="form-control">
+                  <input type="password" name="contrasenaUs"  class="form-control">
                 </div>
                 <button type="submit" class="btn btn-primary" name="enviar">Enviar datos</button>
             </form>
         </div>
-          
+         
         <?php
         }
         ?>

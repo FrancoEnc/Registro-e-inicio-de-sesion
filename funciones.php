@@ -1,22 +1,25 @@
 <?php
+
 function signin($u,$e,$c) {
     $validoUs = "Elian";
     $emailValido = "totoencina10@gmail.com";
-    $passValida = "elian";
-    if ($nombreUsuario == $validoUs && $emailUsuario == $emailValido && $passUs == $passValida) {
+    $passValida = md5("elian");
+    if ($u == $validoUs && $e == $emailValido && $c == $passValida) {
         setcookie("usuario",$validoUs);
-    } 
-    else 
-    {
+        return "Login exitoso";
     
+    }
+    else
+    {
+   
         header("Location: registro.php");
-        
+       
     }
 }
 
+
+
 function registro($n,$a,$p,$d) {
-
-
 }
     
     
