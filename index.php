@@ -21,9 +21,9 @@
     <div class="row">
         <div class="col-12 ms-4">
             
-                <h1 class="text-cust">SISTEMAS DE INGRESO</h1>
-                <h2 class="desc-cust">Inicia sesion o registrate!</h2>
-                <a href="secreto.php"><p class="parrafito mt-4"><button class="btn btn-dark">Iniciá sesión</button></p></a> 
+                <h1 class="index-cust display-1">SISTEMAS DE INGRESO</h1>
+                <h2 class="index-cust">Iniciá sesion o registrate!</h2>
+                <a href="secreto.php"><p class="index-cust mt-4"><button class="btn btn-dark">Iniciá sesión</button></p></a> 
             
         </div>
     </div>
