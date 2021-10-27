@@ -17,7 +17,7 @@
         </header>
 </div>
 <main> 
-<div class="container-fluid p-5">
+<div class="container-fluid p-5 ms-5">
 <?php
 
 $registro = array();

@@ -20,6 +20,7 @@ function signin($u,$e,$c) {
 
 
 function registro($n,$a,$p,$d) {
+    
 }
     
     
